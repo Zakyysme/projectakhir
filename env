@@ -20,9 +20,9 @@
 # APP
 #--------------------------------------------------------------------
 
- app.baseURL = 'http://localhost/projectakhir'
+# app.baseURL = 'http://localhost/projectakhir'
 # If you have trouble with `.`, you could also use `_`.
- app_baseURL = 'http://localhost/projectakhir'
+# app_baseURL = 'http://localhost/projectakhir'
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
 

@@ -30,7 +30,7 @@
     <div class="top__header top-header-one pt-30 pb-30">
         <div class="container">
             <div class="top__wrapper">
-                <a href="index.html" class="main__logo">
+                <a href="/index" class="main__logo">
                     <img src="assets/images/logo/logo.svg" alt="logo__image">
                 </a>
                 <div class="search__wrp">
@@ -56,31 +56,12 @@
                         </span>
                         <a href="#0" class="c__one">
                             <span class="text-white">
-                                $0.00
+                                Rp. 0
                             </span>
                         </a>
                         <span class="one">
                             0
                         </span>
-                    </div>
-                    <div class="flag__wrap">
-                        <div class="flag">
-                            <img src="assets/images/flag/us.png" alt="flag">
-                        </div>
-                        <select name="flag">
-                            <option value="0">
-                                Usa
-                            </option>
-                            <option value="1">
-                                Canada
-                            </option>
-                            <option value="2">
-                                Australia
-                            </option>
-                            <option value="3">
-                                Germany
-                            </option>
-                        </select>
                     </div>
                 </div>
             </div>
@@ -99,145 +80,21 @@
                                 class="fa-sharp text-white fa-light mr-60 fa-bars"></i></button>
                     </li>
                     <li>
-                        <a href="#0">Home <i class="fa-regular fa-angle-down"></i></a>
-                        <ul class="sub-menu">
-                            <li class="subtwohober">
-                                <a href="index.html">
-                                    Home One
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="index-light.html">
-                                    Home One Light
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="index-2.html">
-                                    Home Two
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="index-2-light.html">
-                                    Home Two Light
-                                </a>
-                            </li>
-                        </ul>
+                        <a href="/index">Home <i class="fa-regular fa-angle-down"></i></a>
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="/about">About Us</a>
                     </li>
                     <li>
-                        <a href="#0">Pages <i class="fa-regular fa-angle-down"></i></a>
-                        <ul class="sub-menu">
-                            <li class="subtwohober">
-                                <a href="shop.html">
-                                    Shop Leftbar
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="shop-2.html">
-                                    Shop Rightbar
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="shop-single.html">
-                                    Shop Single
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="cart.html">
-                                    Cart Page
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="checkout.html">
-                                    Checkout Page
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="register.html">
-                                    Register
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="login.html">
-                                    Login
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="error.html">
-                                    404 Error
-                                </a>
-                            </li>
-                        </ul>
+                        <a href="/shop">Shop <i class="fa-regular fa-angle-down"></i></a>
                     </li>
                     <li>
-                        <a href="#0">Blog <i class="fa-regular fa-angle-down"></i></a>
-                        <ul class="sub-menu">
-                            <li class="subtwohober">
-                                <a href="blog.html">
-                                    Blog Stander
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="blog-grid.html">
-                                    Blog Grid
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="blog-list.html">
-                                    Blog List
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="blog-single.html">
-                                    Blog Single
-                                </a>
-                            </li>
-                        </ul>
+                        <a href="/cart">Cart <i class="fa-regular fa-angle-down"></i></a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="/contact">Contact Us</a>
                     </li>
                 </ul>
-                <div class="shipping__item d-none d-sm-flex align-items-center">
-                    <div class="menu__right d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="assets/images/flag/picking.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <p>
-                                Picking up?
-                            </p>
-                            <div class="items">
-                                <select class="form__select p-0">
-                                    <option value="1">
-                                        Select Store
-                                    </option>
-                                    <option value="2">
-                                        Store One
-                                    </option>
-                                    <option value="3">
-                                        Store Two
-                                    </option>
-                                    <option value="3">
-                                        Store Three
-                                    </option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="menu__right d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="assets/images/flag/shipping.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <p>
-                                Free Shipping <br> on order <strong>over $100</strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </header>
@@ -297,7 +154,7 @@
             <div class="container">
                 <h2 class="wow fadeInUp mb-15" data-wow-duration="1.1s" data-wow-delay=".1s">Checkout Page</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
-                    <a href="index.html" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
+                    <a href="/index" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
                             class="fa-regular text-white fa-angle-right"></i></a>
                     <span>Checkout</span>
                 </div>
@@ -412,11 +269,8 @@
                         <div class="footer__item">
                             <h4 class="footer-title">Customer Service</h4>
                             <ul>
-                                <li><a href="contact.html"><span></span>Help Portal</a></li>
-                                <li><a href="contact.html"><span></span>Contact Us</a></li>
-                                <li><a href="error.html"><span></span>Delivery Information</a></li>
-                                <li><a href="error.html"><span></span>Click and Collect</a></li>
-                                <li><a href="error.html"><span></span>Refunds and Returns</a></li>
+                                <li><a href="/contact"><span></span>Help Portal</a></li>
+                                <li><a href="/contact"><span></span>Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -424,11 +278,8 @@
                         <div class="footer__item">
                             <h4 class="footer-title">Get to Know Us</h4>
                             <ul>
-                                <li><a href="about.html"><span></span>About Us</a></li>
-                                <li><a href="blog-grid.html"><span></span>News & Blog</a></li>
-                                <li><a href="error.html"><span></span>Careers</a></li>
-                                <li><a href="error.html"><span></span>Investors</a></li>
-                                <li><a href="contact.html"><span></span>Contact Us</a></li>
+                                <li><a href="/about"><span></span>About Us</a></li>
+                                <li><a href="/contact"><span></span>Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -462,7 +313,7 @@
                 </div>
             </div>
             <div class="footer__copy-text pt-50 pb-50">
-                <a href="index.html" class="logo d-block">
+                <a href="/index" class="logo d-block">
                     <img src="assets/images/logo/logo.svg" alt="logo">
                 </a>
                 <p>&copy; Copyright 2023 <a href="#0" class="primary-hover">odor</a> All Rights Reserved</p>

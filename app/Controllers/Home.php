@@ -18,6 +18,9 @@ class Home extends BaseController
     }
 
     public function shop() :string {
+        return view('shop');
+    }
+    public function shopsingle() :string {
         return view('shop-single');
     }
 

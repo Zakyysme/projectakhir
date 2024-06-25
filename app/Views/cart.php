@@ -30,7 +30,7 @@
     <div class="top__header top-header-one pt-30 pb-30">
         <div class="container">
             <div class="top__wrapper">
-                <a href="" class="main__logo">
+                <a href="/index" class="main__logo">
                     <img src="assets/images/logo/logo.svg" alt="logo__image">
                 </a>
                 <div class="search__wrp">
@@ -78,22 +78,22 @@
                 </div>
                 <ul class="main-menu">
                     <li>
-                        <a href="#0">Home <i class=""></i></a>
+                        <a href="/index">Home <i class=""></i></a>
 
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="/about">About Us</a>
                     </li>
                     <li>
-                        <a href="#0">Shop <i class=""></i></a>
+                        <a href="/shop">Shop <i class=""></i></a>
 
                     </li>
                     <li>
-                        <a href="#0">Cart <i class=""></i></a>
+                        <a href="/cart">Cart <i class=""></i></a>
 
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="/contact">Contact Us</a>
                     </li>
                 </ul>
 
@@ -156,7 +156,7 @@
             <div class="container">
                 <h2 class="wow fadeInUp mb-15" data-wow-duration="1.1s" data-wow-delay=".1s">Cart Page</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
-                    <a href="index.html" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
+                    <a href="/index" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
                             class="fa-regular text-white fa-angle-right"></i></a>
                     <span>Cart</span>
                 </div>
@@ -230,41 +230,6 @@
                             </button>
                         </div>
                     </div>
-                    <!-- <div class="product p-4 bor-bottom d-flex justify-content-between align-items-center">
-                        <div class="product-details d-flex align-items-center">
-                            <img src="assets/images/shop/04.jpg" alt="image">
-                            <h4 class="ps-4 text-capitalize">GravityGlide</h4>
-                        </div>
-                        <div class="product-price">99.99</div>
-                        <div class="product-quantity">
-                            <input type="number" value="2" min="1">
-                        </div>
-
-                        <div class="product-line-price">199.99</div>
-                        <div class="product-removal">
-                            <button class="remove-product">
-                                <i class="fa-solid fa-x heading-color"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="product p-4 d-flex justify-content-between align-items-center">
-                        <div class="product-details d-flex align-items-center">
-                            <img src="assets/images/shop/02.jpg" alt="image">
-                            <h4 class="ps-4 text-capitalize">VortexVape
-                            </h4>
-                        </div>
-                        <div class="product-price">25.98</div>
-                        <div class="product-quantity">
-                            <input type="number" value="1" min="1">
-                        </div>
-                        <div class="product-line-price">25.98</div>
-                        <div class="product-removal">
-                            <button class="remove-product">
-                                <i class="fa-solid fa-x heading-color"></i>
-                            </button>
-                        </div>
-                    </div> -->
-
                     <div class="totals">
                         <div class="totals-item theme-color float-end mt-20">
                             <span class="fw-bold text-uppercase py-2">cart total =</span>
@@ -383,11 +348,8 @@
                         <div class="footer__item">
                             <h4 class="footer-title">Customer Service</h4>
                             <ul>
-                                <li><a href="contact.html"><span></span>Help Portal</a></li>
-                                <li><a href="contact.html"><span></span>Contact Us</a></li>
-                                <li><a href="error.html"><span></span>Delivery Information</a></li>
-                                <li><a href="error.html"><span></span>Click and Collect</a></li>
-                                <li><a href="error.html"><span></span>Refunds and Returns</a></li>
+                                <li><a href="/contact"><span></span>Help Portal</a></li>
+                                <li><a href="/contact"><span></span>Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -395,11 +357,8 @@
                         <div class="footer__item">
                             <h4 class="footer-title">Get to Know Us</h4>
                             <ul>
-                                <li><a href="about.html"><span></span>About Us</a></li>
-                                <li><a href="blog-grid.html"><span></span>News & Blog</a></li>
-                                <li><a href="error.html"><span></span>Careers</a></li>
-                                <li><a href="error.html"><span></span>Investors</a></li>
-                                <li><a href="contact.html"><span></span>Contact Us</a></li>
+                                <li><a href="/about"><span></span>About Us</a></li>
+                                <li><a href="/contact"><span></span>Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -433,7 +392,7 @@
                 </div>
             </div>
             <div class="footer__copy-text pt-50 pb-50">
-                <a href="index.html" class="logo d-block">
+                <a href="/index" class="logo d-block">
                     <img src="assets/images/logo/logo.svg" alt="logo">
                 </a>
                 <p>&copy; Copyright 2023 <a href="#0" class="primary-hover">odor</a> All Rights Reserved</p>

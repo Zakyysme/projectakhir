@@ -29,7 +29,7 @@
     <div class="top__header pt-30 pb-30">
         <div class="container">
             <div class="top__wrapper">
-                <a href="index.html" class="main__logo">
+                <a href="/" class="main__logo">
                     <img src="assets/images/logo/logo.svg" alt="logo__image">
                 </a>
                 <div class="search__wrp">
@@ -76,145 +76,25 @@
                 </div>
                 <ul class="main-menu">
                     <li>
-                        <a href="#0">Home <i class=""></i></a>
-                        <!-- <ul class="sub-menu">
-                            <li class="subtwohober">
-                                <a href="index.html">
-                                    Home One
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="index-light.html">
-                                    Home One Light
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="index-2.html">
-                                    Home Two
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="index-2-light.html">
-                                    Home Two Light
-                                </a>
-                            </li>
-                        </ul> -->
+                        <a href="/">Home <i class=""></i></a>
+                        
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="/about">About Us</a>
                     </li>
                     <li>
-                        <a href="#0">Shop <i class=""></i></a>
-                        <!-- <ul class="sub-menu">
-                            <li class="subtwohober">
-                                <a href="shop.html">
-                                    Shop Leftbar
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="shop-2.html">
-                                    Shop Rightbar
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="shop-single.html">
-                                    Shop Single
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="cart.html">
-                                    Cart Page
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="checkout.html">
-                                    Checkout Page
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="register.html">
-                                    Register
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="login.html">
-                                    Login
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="error.html">
-                                    404 Error
-                                </a>
-                            </li>
-                        </ul> -->
+                        <a href="/shop">Shop <i class=""></i></a>
+                        
                     </li>
                     <li>
-                        <a href="#0">Cart <i class=""></i></a>
-                        <!-- <ul class="sub-menu">
-                            <li class="subtwohober">
-                                <a href="blog.html">
-                                    Blog Stander
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="blog-grid.html">
-                                    Blog Grid
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="blog-list.html">
-                                    Blog List
-                                </a>
-                            </li>
-                            <li class="subtwohober">
-                                <a href="blog-single.html">
-                                    Blog Single
-                                </a>
-                            </li>
-                        </ul> -->
+                        <a href="/cart">Cart <i class=""></i></a>
+                        
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="/contact">Contact Us</a>
                     </li>
                 </ul>
-                <!-- <div class="shipping__item d-none d-sm-flex align-items-center">
-                    <div class="menu__right d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="assets/images/flag/picking.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <p>
-                                Picking up?
-                            </p>
-                            <div class="items">
-                                <select class="form__select p-0">
-                                    <option value="1">
-                                        Select Store
-                                    </option>
-                                    <option value="2">
-                                        Store One
-                                    </option>
-                                    <option value="3">
-                                        Store Two
-                                    </option>
-                                    <option value="3">
-                                        Store Three
-                                    </option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="menu__right d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="assets/images/flag/shipping.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <p>
-                                Free Shipping <br> on order <strong>over $100</strong>
-                            </p>
-                        </div>
-                    </div>
-                </div> -->
+                
             </div>
         </div>
     </header>
@@ -272,10 +152,10 @@
                                     <h3>Rp. 320.000</h3>
                                 </div>
                                 <div class="btn-wrp mt-65">
-                                    <a href="shop.html" class="btn-one" data-animation="fadeInUp"
+                                    <a href="/shop" class="btn-one" data-animation="fadeInUp"
                                         data-delay="1.8s"><span>Shop
                                             Now</span></a>
-                                    <a class="btn-one-light ml-20" href="shop-single.html" data-animation="fadeInUp"
+                                    <a class="btn-one-light ml-20" href="/shop-single" data-animation="fadeInUp"
                                         data-delay="1.9s"><span>View Details</span></a>
                                 </div>
                             </div>
@@ -299,10 +179,10 @@
                                     <h3>$99.00</h3>
                                 </div>
                                 <div class="btn-wrp mt-65">
-                                    <a href="shop.html" class="btn-one" data-animation="fadeInUp"
+                                    <a href="/shop" class="btn-one" data-animation="fadeInUp"
                                         data-delay="1.8s"><span>Shop
                                             Now</span></a>
-                                    <a class="btn-one-light ml-20" href="shop-single.html" data-animation="fadeInUp"
+                                    <a class="btn-one-light ml-20" href="/shop-single" data-animation="fadeInUp"
                                         data-delay="1.9s"><span>View
                                             Details</span></a>
                                 </div>
@@ -327,10 +207,10 @@
                                     <h3>$99.00</h3>
                                 </div>
                                 <div class="btn-wrp mt-65">
-                                    <a href="shop.html" class="btn-one" data-animation="fadeInUp"
+                                    <a href="/shop" class="btn-one" data-animation="fadeInUp"
                                         data-delay="1.8s"><span>Shop
                                             Now</span></a>
-                                    <a class="btn-one-light ml-20" href="shop-single.html" data-animation="fadeInUp"
+                                    <a class="btn-one-light ml-20" href="/shop-single" data-animation="fadeInUp"
                                         data-delay="1.9s"><span>View
                                             Details</span></a>
                                 </div>
@@ -359,68 +239,68 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="category__item category-two__item text-center">
-                                    <a href="shop.html" class="category__image d-block">
+                                    <a href="/shop" class="category__image d-block">
                                         <img src="assets/images/category/category-image1.png" alt="image">
                                         <div class="category-icon">
                                             <img src="assets/images/category/category-icon1.png" alt="icon">
                                         </div>
                                     </a>
-                                    <h4 class="mt-30"><a href="shop.html">best e- juice</a></h4>
+                                    <h4 class="mt-30"><a href="/shop">best e- juice</a></h4>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="category__item category-two__item text-center">
-                                    <a href="shop.html" class="category__image d-block">
+                                    <a href="/shop" class="category__image d-block">
                                         <img src="assets/images/category/category-image2.png" alt="image">
                                         <div class="category-icon">
                                             <img src="assets/images/category/category-icon2.png" alt="icon">
                                         </div>
                                     </a>
-                                    <h4 class="mt-30"><a href="shop.html">best mod</a></h4>
+                                    <h4 class="mt-30"><a href="/shop">best mod</a></h4>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="category__item category-two__item text-center">
-                                    <a href="shop.html" class="category__image d-block">
+                                    <a href="/shop" class="category__image d-block">
                                         <img src="assets/images/category/category-image3.png" alt="image">
                                         <div class="category-icon">
                                             <img src="assets/images/category/category-icon3.png" alt="icon">
                                         </div>
                                     </a>
-                                    <h4 class="mt-30"><a href="shop.html">best pan</a></h4>
+                                    <h4 class="mt-30"><a href="/shop">best pan</a></h4>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="category__item category-two__item text-center">
-                                    <a href="shop.html" class="category__image d-block">
+                                    <a href="/shop" class="category__image d-block">
                                         <img src="assets/images/category/category-image4.png" alt="image">
                                         <div class="category-icon">
                                             <img src="assets/images/category/category-icon4.png" alt="icon">
                                         </div>
                                     </a>
-                                    <h4 class="mt-30"><a href="shop.html">best pod</a></h4>
+                                    <h4 class="mt-30"><a href="/shop">best pod</a></h4>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="category__item category-two__item text-center">
-                                    <a href="shop.html" class="category__image d-block">
+                                    <a href="/shop" class="category__image d-block">
                                         <img src="assets/images/category/category-image5.png" alt="image">
                                         <div class="category-icon">
                                             <img src="assets/images/category/category-icon5.png" alt="icon">
                                         </div>
                                     </a>
-                                    <h4 class="mt-30"><a href="shop.html">best tank</a></h4>
+                                    <h4 class="mt-30"><a href="/shop">best tank</a></h4>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="category__item category-two__item text-center">
-                                    <a href="shop.html" class="category__image d-block">
+                                    <a href="/shop" class="category__image d-block">
                                         <img src="assets/images/category/category-image6.png" alt="image">
                                         <div class="category-icon">
                                             <img src="assets/images/category/category-icon6.png" alt="icon">
                                         </div>
                                     </a>
-                                    <h4 class="mt-30"><a href="shop.html">Best vaps</a></h4>
+                                    <h4 class="mt-30"><a href="/shop">Best vaps</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -441,13 +321,13 @@
                                 <img src="assets/images/view/view-image1.jpg" alt="image">
                             </div>
                             <div class="view__left-content sub-bg">
-                                <h2><a class="primary-hover" href="shop-single.html">The best e-liqued bundles</a>
+                                <h2><a class="primary-hover" href="/shop-single">The best e-liqued bundles</a>
                                 </h2>
                                 <p class="fw-600">Sell globally in minutes with localized currencies languages, and
                                     experie
                                     in every market. only a variety of vaping
                                     products</p>
-                                <a class="btn-two" href="shop-single.html"><span>Shop Now</span></a>
+                                <a class="btn-two" href="/shop-single"><span>Shop Now</span></a>
                                 <a class="off-btn" href="#0"><img class="mr-10" src="assets/images/icon/fire.svg"
                                         alt="icon"> GET
                                     <span class="primary-color">25%
@@ -458,9 +338,9 @@
                     <div class="col-lg-6">
                         <div class="view__item mb-25 wow fadeInDown" data-wow-delay=".2s">
                             <div class="view__content">
-                                <h3><a class="primary-hover" href="shop-single.html">new to vapeing?</a></h3>
+                                <h3><a class="primary-hover" href="/shop-single">new to vapeing?</a></h3>
                                 <p>Whereas recognition of the inherent dignity</p>
-                                <a class="btn-two" href="shop-single.html"><span>Shop Now</span></a>
+                                <a class="btn-two" href="/shop-single"><span>Shop Now</span></a>
                             </div>
                             <div class="view__image">
                                 <img src="assets/images/view/view-image2.jpg" alt="image">
@@ -468,9 +348,9 @@
                         </div>
                         <div class="view__item wow fadeInUp" data-wow-delay=".3s">
                             <div class="view__content">
-                                <h3><a class="primary-hover" href="shop-single.html">Vap mode</a></h3>
+                                <h3><a class="primary-hover" href="/shop-single">Vap mode</a></h3>
                                 <p>Whereas recognition of the inherent dignity</p>
-                                <a class="btn-two" href="shop-single.html"><span>Shop Now</span></a>
+                                <a class="btn-two" href="/shop-single"><span>Shop Now</span></a>
                             </div>
                             <div class="view__image">
                                 <img src="assets/images/view/view-image3.jpg" alt="image">
@@ -515,14 +395,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image1.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image3.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Menthol
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Menthol
                                                 E-Cigarette Kit</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -543,14 +423,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image2.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Disposable
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Disposable
                                                 Sub-Ohm Tank</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -571,14 +451,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image3.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image5.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">POP
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">POP
                                                 Extra
                                                 Strawberry</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -600,14 +480,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image6.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Battery
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Battery
                                                 And
                                                 Charger Kit</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -629,14 +509,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image5.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image3.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Pods
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Pods
                                                 Sold
                                                 Separately</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -658,14 +538,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image6.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">GeekVape
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">GeekVape
                                                 Obelisk Pod</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -686,14 +566,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image7.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">POP Extra
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">POP Extra
                                                 Strawberry</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -714,14 +594,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image8.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">100ml
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">100ml
                                                 Nic
                                                 Salt Juice</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -747,14 +627,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image6.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Battery
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Battery
                                                 And
                                                 Charger Kit</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -776,14 +656,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image5.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image3.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Pods
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Pods
                                                 Sold
                                                 Separately</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -805,14 +685,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image6.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">GeekVape
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">GeekVape
                                                 Obelisk Pod</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -833,14 +713,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image7.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">POP Extra
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">POP Extra
                                                 Strawberry</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -861,14 +741,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image8.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">100ml
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">100ml
                                                 Nic
                                                 Salt Juice</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -894,14 +774,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image1.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image3.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Menthol
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Menthol
                                                 E-Cigarette Kit</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -922,14 +802,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image2.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Disposable
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Disposable
                                                 Sub-Ohm Tank</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -950,14 +830,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image3.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image5.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">POP
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">POP
                                                 Extra
                                                 Strawberry</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -979,14 +859,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image7.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">POP Extra
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">POP Extra
                                                 Strawberry</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
                                         <div class="star mt-20">
@@ -1007,14 +887,14 @@
                             <div class="col-xxl-3 col-xl-4 col-md-6">
                                 <div class="product__item bor">
                                     <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
+                                    <a href="/shop-single" class="product__image pt-20 d-block">
                                         <img class="font-image" src="assets/images/product/product-image8.png"
                                             alt="image">
                                         <img class="back-image" src="assets/images/product/product-image4.png"
                                             alt="image">
                                     </a>
                                     <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">100ml
+                                        <h4 class="mb-15"><a class="primary-hover" href="/shop-single">100ml
                                                 Nic
                                                 Salt Juice</a></h4>
                                         <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
@@ -1062,7 +942,7 @@
                                     market. only a variety of vaping
                                     products
                                 </p>
-                                <a class="btn-one wow fadeInUp" data-wow-delay=".3s" href="shop.html"><span>Shop
+                                <a class="btn-one wow fadeInUp" data-wow-delay=".3s" href="/shop"><span>Shop
                                         Now</span></a>
                                 <a class="off-btn wow fadeInUp" data-wow-delay=".4s" href="#0"><img class="mr-10"
                                         src="assets/images/icon/fire.svg" alt="icon"> GET <span
@@ -1346,11 +1226,11 @@
                         <div class="footer__item">
                             <h4 class="footer-title">vapes new collections</h4>
                             <ul>
-                                <li><a href="shop.html"><span></span>E-Cigarettes</a></li>
-                                <li><a href="shop.html"><span></span>Vape Pens</a></li>
-                                <li><a href="shop.html"><span></span>Pod Systems</a></li>
-                                <li><a href="shop.html"><span></span>Disposable Vapes</a></li>
-                                <li><a href="shop.html"><span></span>Nicotine Salt Devices</a></li>
+                                <li><a href="/shop"><span></span>E-Cigarettes</a></li>
+                                <li><a href="/shop"><span></span>Vape Pens</a></li>
+                                <li><a href="/shop"><span></span>Pod Systems</a></li>
+                                <li><a href="/shop"><span></span>Disposable Vapes</a></li>
+                                <li><a href="/shop"><span></span>Nicotine Salt Devices</a></li>
                             </ul>
                         </div>
                     </div>
