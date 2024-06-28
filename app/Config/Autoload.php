@@ -21,7 +21,9 @@ use CodeIgniter\Config\AutoloadConfig;
  * @immutable
  */
 class Autoload extends AutoloadConfig
+
 {
+    
     /**
      * -------------------------------------------------------------------
      * Namespaces

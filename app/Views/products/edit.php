@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odor - Vape Store WooCommerce HTML Template</title>
+    <title>VapeManiaks</title>
     <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/images/favicon.png">
-    <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- All min css -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Animate css -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- Nice select css -->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!-- Style css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="<?= base_url('assets/images/favicon.png') ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/all.min.css') ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/swiper-bundle.min.css') ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/magnific-popup.css') ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/animate.css') ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/nice-select.css') ?>">
+
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
     <!-- Header area start here -->
     <div class="top__header top-header-one pt-30 pb-30">
         <div class="container">
-            <div class="top__wrapper">
+            <!-- <div class="top__wrapper">
                 <a href="/" class="main__logo">
                     <img src="assets/images/logo/logo.svg" alt="logo__image">
                 </a>
@@ -56,7 +56,7 @@
                         </span>
                         <a href="#0" class="c__one">
                             <span class="text-white">
-                                $0.00
+                                Rp. 0
                             </span>
                         </a>
                         <span class="one">
@@ -64,10 +64,10 @@
                         </span>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-    <header class="header-section">
+    <!-- <header class="header-section">
         <div class="container">
             <div class="header-wrapper pl-65">
                 <div class="header-bar d-lg-none">
@@ -86,7 +86,7 @@
                         <a href="/about">About Us</a>
                     </li>
                     <li>
-                        <a href="/shop">Shop <i class=""></i></a>
+                        <a href="/shop">shop <i class=""></i></a>
                     </li>
                     <li>
                         <a href="/cart">Cart <i class=""></i></a>
@@ -97,11 +97,11 @@
                 </ul>
             </div>
         </div>
-    </header>
+    </header> -->
     <!-- Header area end here -->
 
     <!-- Sidebar area start here -->
-    <div id="targetElement" class="side_bar slideInRight side_bar_hidden">
+    <!-- <div id="targetElement" class="side_bar slideInRight side_bar_hidden">
         <div class="side_bar_overlay"></div>
         <div class="logo mb-30">
             <img src="assets/images/logo/logo.svg" alt="logo">
@@ -124,7 +124,7 @@
             <a href="#0"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <button id="closeButton" class="text-white"><i class="fa-solid fa-xmark"></i></button>
-    </div>
+    </div> -->
     <!-- Sidebar area end here -->
 
     <!-- Preloader area start -->
@@ -150,80 +150,137 @@
 
     <main>
         <!-- Page banner area start here -->
-        <section class="page-banner bg-image pt-130 pb-130" data-background="assets/images/banner/inner-banner.jpg">
+        <!-- <section class="page-banner bg-image pt-130 pb-130" data-background="assets/images/banner/inner-banner.jpg">
             <div class="container">
-                <h2 class="wow fadeInUp mb-15" data-wow-duration="1.1s" data-wow-delay=".1s">sign in</h2>
+                <h2 class="wow fadeInUp mb-15" data-wow-duration="1.1s" data-wow-delay=".1s">shop layout 01</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
-                    <a href="index.html" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
+                    <a href="/" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
                             class="fa-regular text-white fa-angle-right"></i></a>
-                    <span>sign in</span>
+                    <span>shop l</span>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Page banner area end here -->
 
-        <!-- Login area start here -->
+        <!-- Product area start here -->
+        <!-- <section class="product-area pt-130 pb-130">
+            <div class="container">
+                <div class="pb-20 bor-bottom shop-page-wrp d-flex justify-content-between align-items-center mb-65">
+                    <p class="fw-600">Showing 1–12 of 17 results</p>
+                    <div class="short">
+                        <select name="shortList" id="shortList">
+                            <option value="0">Short by popularity</option>
+                            <option value="1">E-Cigarette</option>
+                            <option value="2">POP Extra</option>
+                            <option value="3">Charger Kit</option>
+                            <option value="4">100ml Nic</option>
+                            <option value="5">Salt Juice</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="product__left-item sub-bg">
+                            <h4 class="mb-30 left-title">Special Offer</h4>
+                            <div class="image mb-30">
+                                <img src="assets/images/coundown/coundown-image1.png" alt="image">
+                            </div>
+                            <div class="product__content p-0">
+                                <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Mango Nic Salt
+                                        E-Liquidt</a></h4>
+                                <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
+                                <div class="star mt-20">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="image pt-40 mb-30 bor-top mt-40">
+                                <img src="assets/images/coundown/coundown-image2.png" alt="image">
+                            </div>
+                            <div class="product__content p-0">
+                                <h4 class="mb-15"><a class="primary-hover" href="/shop-single">Watermelon Nic
+                                        Salt</a></h4>
+                                <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
+                                <div class="star mt-20">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- <div class="product__coundown pt-30 bor-top mt-40">
+                                <h4>Hurry Up!</h4>
+                                <span>offer ends in</span>
+                                <div class="d-flex align-items-center gap-3 flex-wrap mt-25">
+                                    <div class="coundown-item">
+                                        <span id="day"></span>
+                                        <h6>Day</h6>
+                                    </div>
+                                    <div class="coundown-item">
+                                        <span id="hour"></span>
+                                        <h6>hour</h6>
+                                    </div>
+                                    <div class="coundown-item">
+                                        <span id="min"></span>
+                                        <h6>min</h6>
+                                    </div>
+                                    <div class="coundown-item">
+                                        <span id="sec"></span>
+                                        <h6>Sec</h6>
+                                    </div>
+                                </div>
+                            </div> -->
+        </div>
+        </div>
         <section class="login-area pt-130 pb-130">
             <div class="container">
                 <div class="login__item">
-                    <div class="row g-4">
-                        <div class="col-xxl-8">
-                            <div class="login__image">
-                                <img src="assets/images/login/login-image1.jpg" alt="image">
-                                <div class="btn-wrp">
-                                    <a class="active" href="/login">sign in</a>
-                                    <a href="/register">create account</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4">
-                            <div class="login__content">
-                                <h2 class="text-white mb-65">Welcome Back</h2>
-                                <div class="form-area login__form">
-                                    <form action="/login" method="post">
-                                        <?= csrf_field() ?>
-                                        <input type="email" placeholder="Email" name="email"
-                                            value="<?= old('email') ?>">
-                                        <input class="mt-30" type="password" placeholder="Enter Password"
-                                            name="password">
-                                        <button class="mt-30" type="submit">Sign In</button>
-                                        <div class="radio-btn mt-30">
-                                            <span></span>
-                                            <p>I accept your terms & conditions</p>
-                                        </div>
-                                    </form>
-                                    <span class="or pt-30 pb-40">OR</span>
-                                </div>
-                                <div class="login__with">
-                                    <a href="#0"><img src="assets/images/icon/google.svg" alt=""> continue with
-                                        google</a>
-                                    <a class="mt-15" href="#0"><img src="assets/images/icon/facebook.svg" alt="">
-                                        continue with
-                                        facebook</a>
+                    <div class="">
+                        <!-- <a href="/products/create">Create A Product</a> -->
+                        <div class=" row">
+                            <div class="">
+                                <div class="login__content">
+                                    <div class="form-area login__form">
+                                        <form action="<?= base_url('products/update/' . $product['id']) ?>"
+                                            method="post" enctype="multipart/form-data">
+                                            <Label for="name">Name :</Label>
+                                            <input type="text" name="name" id="name"
+                                                value="<?= $product['name'] ?>"><br>
+                                            <label for="description">Description :</label>
+                                            <textarea name="description"><?= $product['description'] ?></textarea><br>
+                                            <label for="price">Price :</label>
+                                            <input type="text" name="price" id="value"
+                                                value="<?= $product['price'] ?>"><br>
+                                            <label for="image">Image</label>
+                                            <input type="file" name="image" id="image"><br>
+                                            <img src="<?= base_url('uploads/' . $product['image']) ?>" width="100"><br>
+                                            <button type="submit">Submit</button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> <!-- Product area end here -->
             </div>
         </section>
-        <!-- Login area end here -->
     </main>
 
     <!-- Footer area start here -->
     <footer class="footer-area bg-image" data-background="assets/images/footer/footer-bg.jpg">
-        <div class="container">
+        <!-- <div class="container">
             <div class="footer__wrp pt-65 pb-65 bor-top bor-bottom">
                 <div class="row g-4">
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.1s" data-wow-delay=".1s">
                         <div class="footer__item">
                             <h4 class="footer-title">Customer Service</h4>
                             <ul>
-                                <li><a href="contact.html"><span></span>Help Portal</a></li>
-                                <li><a href="contact.html"><span></span>Contact Us</a></li>
-                                <li><a href="error.html"><span></span>Delivery Information</a></li>
-                                <li><a href="error.html"><span></span>Click and Collect</a></li>
-                                <li><a href="error.html"><span></span>Refunds and Returns</a></li>
+                                <li><a href="/contact"><span></span>Help Portal</a></li>
+                                <li><a href="/contact"><span></span>Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -231,11 +288,8 @@
                         <div class="footer__item">
                             <h4 class="footer-title">Get to Know Us</h4>
                             <ul>
-                                <li><a href="about.html"><span></span>About Us</a></li>
-                                <li><a href="blog-grid.html"><span></span>News & Blog</a></li>
-                                <li><a href="error.html"><span></span>Careers</a></li>
-                                <li><a href="error.html"><span></span>Investors</a></li>
-                                <li><a href="contact.html"><span></span>Contact Us</a></li>
+                                <li><a href="/about"><span></span>About Us</a></li>
+                                <li><a href="/contact"><span></span>Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -269,7 +323,7 @@
                 </div>
             </div>
             <div class="footer__copy-text pt-50 pb-50">
-                <a href="index.html" class="logo d-block">
+                <a href="/" class="logo d-block">
                     <img src="assets/images/logo/logo.svg" alt="logo">
                 </a>
                 <p>&copy; Copyright 2023 <a href="#0" class="primary-hover">odor</a> All Rights Reserved</p>
@@ -277,40 +331,35 @@
                     <img src="assets/images/icon/payment.png" alt="icon">
                 </a>
             </div>
-        </div>
+        </div> -->
     </footer>
     <!-- Footer area end here -->
 
     <!-- Back to top area start here -->
-    <div class="scroll-up">
-        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
     <!-- Back to top area end here -->
 
     <!-- Jquery 3. 7. 1 Min Js -->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="<?= base_url('assets/js/jquery-3.7.1.min.js') ?>"></script>
     <!-- Bootstrap min Js -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
     <!-- Swiper bundle min Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="<?= base_url('assets/js/swiper-bundle.min.js') ?>"></script>
     <!-- Counterup min Js -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="<?= base_url('assets/js/jquery.counterup.min.js') ?>"></script>
     <!-- Wow min Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="<?= base_url('assets/js/wow.min.js') ?>"></script>
     <!-- Magnific popup min Js -->
-    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="<?= base_url('assets/js/magnific-popup.min.js') ?>"></script>
     <!-- Nice select min Js -->
-    <script src="assets/js/nice-select.min.js"></script>
+    <script src="<?= base_url('assets/js/nice-select.min.js') ?>"></script>
     <!-- Pace min Js -->
-    <script src="assets/js/pace.min.js"></script>
+    <script src="<?= base_url('assets/js/pace.min.js') ?>"></script>
     <!-- Isotope pkgd min Js -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="<?= base_url('assets/js/isotope.pkgd.min.js') ?>"></script>
     <!-- Waypoints Js -->
-    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="<?= base_url('assets/js/jquery.waypoints.js') ?>"></script>
     <!-- Script Js -->
-    <script src="assets/js/script.js"></script>
+    <script src="<?= base_url('assets/js/script.js') ?>"></script>
 </body>
 
 </html>

@@ -171,8 +171,8 @@
                             <div class="login__image">
                                 <img src="assets/images/register/res-image1.jpg" alt="image">
                                 <div class="btn-wrp">
-                                    <a href="login.html">sign in</a>
-                                    <a class="active" href="register.html">create account</a>
+                                    <a href="/login">sign in</a>
+                                    <a class="active" href="/register">create account</a>
                                 </div>
                             </div>
                         </div>
@@ -180,12 +180,8 @@
                             <div class="login__content">
                                 <h2 class="text-white mb-65">create account</h2>
                                 <div class="form-area login__form">
-                                    <?php if (session()->getFlashdata('success')) : ?>
-                                    <p><?= session()->getFlashdata('success') ?></p>
-                                    <?php endif; ?>
-
-                                    <?= \Config\Services::validation()->listErrors() ?>
                                     <form action="/register" method="post">
+                                        <?= csrf_field()?>
                                         <label>Name:</label>
                                         <input type="text" name="name" value="<?= set_value('name') ?>"><br>
 

@@ -4,45 +4,43 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CreateProductTable extends Migration
+class CreateProductsTable extends Migration
 {
     public function up()
     {
         $this->forge->addField([
             'id' => [
-                'type' => 'INT',
-                'constraint' => 5,
-                'unsigned' => true,
-                'auto_increment' => true,
+                'type'           => 'INT',
+                'unsigned'       => true,
+                'auto_increment' => true
             ],
-            'title' => [
+            'name' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
+                'constraint' => '255'
             ],
-            'body' => [
-                'type' => 'TEXT',
-                'null' => true,
+            'price' => [
+                'type' => 'FLOAT'
             ],
             'image' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
+                'constraint' => '255',
+                'null' => true
             ],
             'created_at' => [
                 'type' => 'DATETIME',
-                'null' => true,
+                'null' => true
             ],
             'updated_at' => [
                 'type' => 'DATETIME',
-                'null' => true,
+                'null' => true
             ],
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('product');
+        $this->forge->createTable('products');
     }
 
     public function down()
     {
-        $this->forge->dropTable('product');
+        $this->forge->dropTable('products');
     }
 }

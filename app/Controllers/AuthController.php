@@ -42,16 +42,17 @@ class AuthController extends Controller
 
             if ($user && password_verify($password, $user['password'])) {
                 $this->session->set('user', $user);
-                log_message('info', 'User logged in successfully');
-                return redirect()->to('/');
+                if ($user['role'] == 'admin') {
+                    return redirect()->to('/products');
+                } else {
+                    return redirect()->to('/');
+                }
             } else {
                 $this->session->setFlashdata('error', 'Invalid email or password.');
                 return redirect()->back()->withInput();
             }
-        } else {
-            $data['validation'] = $this->validator;
-            return view('auth/login', $data);
-        }
+        } 
+        return view('auth/login');
     }
 
     public function registerPost()
@@ -60,23 +61,25 @@ class AuthController extends Controller
             'name' => 'required|min_length[3]|max_length[20]',
             'email' => 'required|valid_email|is_unique[users.email]',
             'password' => 'required|min_length[6]',
-            'password_confirm' => 'matches[password]'
+            'password_confirm' => 'matches[password]' 
         ];
 
         if ($this->validate($rules)) {
+            $model = new UserModel();
+            $role = $model->countAll() > 0 ? 'user' : 'admin';
             $data = [
                 'name' => $this->request->getVar('name'),
                 'email' => $this->request->getVar('email'),
-                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
+                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+                'role' => $role,
             ];
 
-            $this->userModel->save($data);
-            $this->session->setFlashdata('success', 'Registration successful. Please login.');
+
+            $model->createUser($data);
             return redirect()->to('/login');
-        } else {
-            $data['validation'] = $this->validator;
-            return view('auth/register', $data);
-        }
+        } 
+            return view('auth/register');
+        
     }
 
     public function logout()

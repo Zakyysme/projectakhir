@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odor - Vape Store WooCommerce HTML Template</title>
+    <title>VapeManiaks</title>
     <!-- Favicon img -->
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->
@@ -158,8 +158,7 @@
                 <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
                     <a href="/index" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
                             class="fa-regular text-white fa-angle-right"></i></a>
-                    <a href="/shop" class="primary-hover"> shop <i
-                            class="fa-regular text-white fa-angle-right"></i></a>
+                    <a href="/shop" class="primary-hover"> shop <i class="fa-regular text-white fa-angle-right"></i></a>
                     <span>Shop Details</span>
                 </div>
             </div>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odor - Vape Store WooCommerce HTML Template</title>
+    <title>VapeManiaks</title>
     <!-- Favicon img -->
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Bootstarp min css -->
@@ -40,28 +40,15 @@
                 <div class="account__wrap">
                     <div class="account d-flex align-items-center">
                         <div class="user__icon">
-                            <a href="#0">
+                            <a href="/login">
                                 <i class="fa-regular fa-user"></i>
                             </a>
                         </div>
-                        <a href="#0" class="acc__cont">
-                            <span class="text-white">
+                        <a href="/login" class="acc__cont">
+                            <span class="text-dark">
                                 My Account
                             </span>
                         </a>
-                    </div>
-                    <div class="cart d-flex align-items-center">
-                        <span class="cart__icon">
-                            <i class="fa-regular fa-cart-shopping"></i>
-                        </span>
-                        <a href="#0" class="c__one">
-                            <span class="text-white">
-                                Rp. 0
-                            </span>
-                        </a>
-                        <span class="one">
-                            0
-                        </span>
                     </div>
                 </div>
             </div>
@@ -109,7 +96,8 @@
         <ul class="info py-4 mt-65 bor-top bor-bottom">
             <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">example@example.com</a>
             </li>
-            <li class="py-4"><i class="fa-solid primary-color fa-phone-volume"></i> <a href="tel:+912659302003">+62 1234567890</a>
+            <li class="py-4"><i class="fa-solid primary-color fa-phone-volume"></i> <a href="tel:+912659302003">+62
+                    1234567890</a>
             </li>
             <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">vapestore@gmail.com</a></li>
         </ul>

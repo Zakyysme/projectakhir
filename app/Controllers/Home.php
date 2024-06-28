@@ -1,12 +1,15 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\ProductModel;
 
 class Home extends BaseController
 {
     public function index(): string
     {
-        return view('index');
+        $model = new ProductModel();
+        $data['products'] = $model->findAll();
+        return view('index', $data);
     }
 
     public function about(): string {
@@ -18,11 +21,15 @@ class Home extends BaseController
     }
 
     public function shop() :string {
-        return view('shop');
+        $model = new ProductModel();
+        $data['products'] = $model->findAll();
+
+        // echo view('products/shop', $data);
+        return view('shop', $data);
     }
-    public function shopsingle() :string {
-        return view('shop-single');
-    }
+    // public function shopsingle() :string {
+    //     return view('shop-single');
+    // }
 
     public function contact() :string {
         return view('contact');

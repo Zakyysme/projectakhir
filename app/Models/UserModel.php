@@ -12,7 +12,7 @@ class UserModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name', 'email', 'password'];
+    protected $allowedFields    = ['name', 'email', 'password', 'role'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
@@ -43,4 +43,14 @@ class UserModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getUserByEmail($email)
+    {
+        return $this->where('email', $email)->first();
+    }
+
+    public function createUser($data)
+    {
+        return $this->insert($data);
+    }
 }

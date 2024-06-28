@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ProductTable extends Model
+class ProductModel extends Model
 {
-    protected $table            = 'producttables';
+    protected $table            = 'products';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['title', 'body', 'image'];
+    protected $allowedFields    = ['name','description', 'price', 'image'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;

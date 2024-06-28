@@ -2,127 +2,89 @@
 
 namespace App\Controllers;
 
-use App\Models\ProductTable;
+use App\Models\ProductModel;
 use CodeIgniter\Controller;
 
-class PostsController extends Controller
+class ProductController extends Controller
 {
     public function index()
     {
-        $productTable = new ProductTable();
-        $data['posts'] = $productTable->findAll();
+        $model = new ProductModel();
+        $data['products'] = $model->findAll();
 
-        return view('posts/index', $data);
+        echo view('products/shop', $data);
     }
 
     public function create()
     {
-        return view('posts/create');
+        echo view('products/create');
     }
 
     public function store()
     {
-        $rules = [
-            'title' => 'required',
-            'body' => 'required',
-            'image' => 'uploaded[image]|is_image[image]',
+        $model = new ProductModel();
+
+        // Handle file upload
+        $img = $this->request->getFile('image');
+        if ($img->isValid() && !$img->hasMoved()) {
+            $imgName = $img->getRandomName();
+            $img->move(ROOTPATH . 'public/uploads', $imgName);
+        } else {
+            $imgName = null;
+        }
+
+        $data = [
+            'name'        => $this->request->getPost('name'),
+            'description' => $this->request->getPost('description'),
+            'price'       => $this->request->getPost('price'),
+            'image'       => $imgName,
         ];
 
-        if ($this->validate($rules)) {
-            $image = $this->request->getFile('image');
+        $model->save($data);
 
-            // Generate a random name
-            $newName = $image->getRandomName();
-            $image->move('./uploads', $newName);
-
-            $productData = [
-                'title' => $this->request->getVar('title'),
-                'body' => $this->request->getVar('body'),
-                'image' => $newName,
-            ];
-
-            $productTable = new ProductTable();
-            $productTable->insert($productData);
-
-            return redirect()->to('/posts');
-        } else {
-            $data['validation'] = $this->validator;
-            return view('posts/create', $data);
-        }
+        return redirect()->to('/products');
     }
+
 
     public function edit($id)
     {
-        $productTable = new ProductTable();
-        $data['post'] = $productTable->find($id);
+        $model = new ProductModel();
+        $data['product'] = $model->find($id);
 
-        return view('posts/edit', $data);
+        echo view('products/edit', $data);
     }
-
 
     public function update($id)
     {
-        $rules = [
-            'title' => 'required',
-            'body' => 'required',
+        $model = new ProductModel();
+
+        // Handle file upload
+        $img = $this->request->getFile('image');
+        if ($img->isValid() && !$img->hasMoved()) {
+            $imgName = $img->getRandomName();
+            $img->move(ROOTPATH . 'public/uploads', $imgName);
+        } else {
+            $imgName = $this->request->getPost('old_image');
+        }
+
+        $data = [
+            'name'        => $this->request->getPost('name'),
+            'description' => $this->request->getPost('description'),
+            'price'       => $this->request->getPost('price'),
+            'image'       => $imgName,
         ];
 
-        // Validasi input
-        if ($this->validate($rules)) {
-            // Validasi sukses, lanjutkan dengan pembaruan data
-            $productTable = new ProductTable(); // Inisialisasi model produk
+        $model->update($id, $data);
 
-            // Ambil data produk berdasarkan ID
-            $productTable = $productTable->find($id);
-
-            if (!$productTable) {
-                return redirect()->to('/products'); // Redirect jika produk tidak ditemukan
-            }
-
-            // Update data produk
-            $productData = [
-                'title' => $this->request->getVar('title'),
-                'body' => $this->request->getVar('body'),
-            ];
-
-            // Proses pengunggahan gambar baru jika ada
-            if ($image = $this->request->getFile('image')) {
-                // Hapus gambar lama jika ada
-                if ($productTable['image'] && file_exists('./uploads/' . $productTable['image'])) {
-                    unlink('./uploads/' . $productTable['image']);
-                }
-
-                // Generate a new name for the image file
-                $newName = $image->getRandomName();
-
-                // Move the uploaded file to the uploads directory
-                $image->move('./uploads', $newName);
-
-                // Update product data with the new image name
-                $productData['image'] = $newName;
-            }
-
-            // Lakukan pembaruan data produk di database
-            $productTable->update($id, $productData);
-
-            // Redirect ke halaman produk setelah berhasil memperbarui
-            return redirect()->to('/products');
-        } 
-        else {
-            // Validasi gagal, kembalikan ke halaman edit dengan pesan validasi
-            $data['validation'] = $this->validator;
-            // $data['post'] = $productTable->find($id); // Ambil data produk untuk ditampilkan kembali
-            return view('posts/edit', $data);
-        }
+        return redirect()->to('/products');
     }
-
 
 
     public function delete($id)
     {
-        $productTable = new ProductTable();
-        $productTable->delete($id);
+        $model = new ProductModel();
+        $model->delete($id);
 
-        return redirect()->to('/posts');
+        return redirect()->to('/products');
     }
 }
